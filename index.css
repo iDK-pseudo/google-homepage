@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+.main {
+    display: grid;
+    height : 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#navbar{
+    text-align : end;
+}
+#logo {
+    text-align : center;
+} 
+li {
+    list-style-type:none;
+    margin: 0.5em;
+    padding: 0;
+    display: inline;
+    font-family: arial,sans-serif;
+    font-weight:100
+}
+input {
+    margin-top: 2em;
+    width: 20%;
+}
